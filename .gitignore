@@ -160,4 +160,6 @@ cython_debug/
 #.idea/
 
 # Large Files
-*Paper3_WebData_Final.csv*
+Paper3_WebData_Final.csv*
+df_audio_check*
+df_audio_v1*
