@@ -1,0 +1,5 @@
+[core]
+    remote = audiog
+    autostage = true
+['remote "audiog"']
+    url = s3://audiog-files
