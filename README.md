@@ -1,5 +1,5 @@
 # Audiogram Predict
-This is an Machine Learning project to predict new frequencies values  
+This is a Machine Learning project to predict new frequencies values  
 <br>
 ## Installation
 To install required packages:
