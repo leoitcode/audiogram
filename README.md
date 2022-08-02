@@ -4,7 +4,7 @@ This is an Machine Learning project to predict new frequencies values
 ## Installation
 To install required packages:
 ```
-poetry install
+./scripts/install.sh
 ```
 
 ## Execution

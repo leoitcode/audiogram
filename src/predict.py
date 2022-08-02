@@ -9,7 +9,7 @@ from pathlib import Path
 orig_col = ['500k', '1k', '2k', '3k', '4k', '6k', '8k']
 
 # Model Path
-m_path = Path.cwd() / 'model'
+m_path = Path.cwd() / 'src' / 'model'
 
 # Load required files
 with open(m_path / 'models.pkl', 'rb') as f:
