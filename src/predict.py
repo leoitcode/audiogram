@@ -1,7 +1,6 @@
 import numpy as np
 import joblib
 import pickle
-import pandas as pd
 
 from pathlib import Path
 

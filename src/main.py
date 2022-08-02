@@ -7,7 +7,7 @@ orig_col = ['500k', '1k', '2k', '3k', '4k', '6k', '8k']
 
 if __name__ == "__main__":
     st.title("AUDIOGRAM PREDICT")
-    st.markdown("Choose your values dB (Decibels) for frequencies (2k, 4k, 6k)")
+    st.markdown("Input values dB (Decibels) for frequencies (2k, 4k, 6k)")
     _2k_freq = st.number_input("2k", value=0, step=5, min_value=-5, max_value=95)
     _4k_freq = st.number_input("4k", value=0, step=5, min_value=-5, max_value=95)
     _6k_freq = st.number_input("6k", value=0, step=5, min_value=-5, max_value=95)
@@ -41,4 +41,3 @@ if __name__ == "__main__":
             st.dataframe(df_res)
         else:
             st.write('Wrong input')
-    
