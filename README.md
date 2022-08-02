@@ -18,17 +18,18 @@ poetry run streamlit run src/main.py
 Experiments: Conda Environment (conda_environment.yml)
 
 ```
-conda activate cond_audio_env
+notebook/
 ```
   
 Script: Poetry (pyproject.toml)
 ```
-poetry shell
+src/
 ```
 
 Data: DVC connected on AWS S3 Bucket (.dvc/)
 ```
-dvc status
+dataset/
+model/
 ```
 
 
