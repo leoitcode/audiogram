@@ -5,7 +5,13 @@ description = "Predict Audiogram"
 authors = ["Leonardo Lara <leoitcode>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.12"
+streamlit = "^1.11.1"
+joblib = "^1.1.0"
+numpy = "^1.23.1"
+pandas = "^1.4.3"
+scipy = "^1.9.0"
+sklearn = "^0.0"
 
 [tool.poetry.dev-dependencies]
 
