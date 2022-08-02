@@ -6,14 +6,12 @@ To install required packages:
 ```
 poetry install
 ```
-<br>
 
 ## Execution
 To execute the application run:
 ```
 poetry run streamlit run src/main.py
 ```
-<br>
 
 ## Versioning
 
@@ -32,14 +30,13 @@ Data: DVC connected on AWS S3 Bucket (.dvc/)
 ```
 dvc status
 ```
-<br>
+
 
 Files tracked by Git and DVC:
 ![](image/files_git_dvc.png)
 
 DVC connection to AWS S3:  
 ![](image/dvc_remote_list.png)
-<br>
 <br>
 
 ## Modeling
@@ -62,7 +59,6 @@ Comb: 2k-4k-6k-500k-3k -> 1k
 
 - Comb: 2k-4k-6k-500k-3k-1k -> 8k  
 Comb: 2k-4k-6k-8k-3k-1k -> 500k  
-<br>
 
 ## Experiments
 In order to run the notebooks run:
